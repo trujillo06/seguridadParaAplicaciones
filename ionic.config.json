@@ -1,0 +1,7 @@
+{
+  "name": "TotillaOs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
