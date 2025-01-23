@@ -5,5 +5,5 @@
  **Build Command:**
  npm run build
 
-**Publish Directory:**
+**Publish/Output Directory:**
 dist
