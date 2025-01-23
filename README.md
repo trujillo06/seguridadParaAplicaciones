@@ -1,11 +1,11 @@
 ﻿# seguridadParaAplicaciones
 
-React:
+React
 
- Build Command
+ Build Command:
  
  npm run build
 
-Publish Directory
+Publish Directory:
 
  dist
