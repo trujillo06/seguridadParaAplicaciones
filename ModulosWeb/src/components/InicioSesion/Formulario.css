@@ -1,11 +1,11 @@
 body {
   background: linear-gradient(to bottom, #001f3f, #005f9e); /* Fondo con gradiente */
-  margin: 0;
+  /* margin: 0;
   font-family: 'Arial', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh; */
 }
 
 .login-container {
@@ -14,21 +14,22 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  position: relative;
+  position: relative; 
+  color: black; 
 }
 
 .login-box {
+  /* background: rgba(209, 204, 204, 0.1); */
   background: white;
   padding: 2rem;
   border-radius: 15px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 400px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
-  margin-top: 60px;
 }
 
 .login-box:hover {
@@ -44,38 +45,34 @@ body {
   transform: translateX(-50%);
 }
 
-h2 {
-  color: #001f3f; 
-  margin-bottom: 1.5rem;
-  font-size: 1.8rem;
-  margin-top: 40px;
-}
 
 .input-group {
   margin-bottom: 1rem;
   text-align: left;
+  color: #001f3f;
 }
 
 .input-group label {
   display: block;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #001f3f; /* Color oscuro para las etiquetas */
+  /* color: white; */
+  color: #001f3f;
 }
 
 .input-group input {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ddd; /* Borde sutil */
+  /* border: 8px solid rgba(207, 99, 99, 0.3);  */
   border-radius: 8px;
   font-size: 1rem;
   transition: border-color 0.3s ease;
-  background-color: white; /* Fondo blanco sólido */
-  color: #333; /* Color oscuro para el texto */
+  background-color: rgba(200, 218, 219, 0.1); 
+  color: #6ba3db;
 }
 
 .input-group input:focus {
-  border-color: #5490f0; /* Borde azul al enfocar */
+  border-color: #5490f0;
   outline: none;
 }
 
@@ -88,7 +85,7 @@ h2 {
 }
 
 .options a {
-  color: #4586f0; /* Color azul para los enlaces */
+  color: #4586f0;
   text-decoration: none;
   font-weight: 500;
 }
@@ -106,26 +103,32 @@ h2 {
   cursor: pointer;
   font-size: 1rem;
   width: 100%;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
 }
 
 .login-button:hover {
   background-color: #467aea;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
 }
 
 .register-link {
   font-size: 0.9rem;
-  color: #000000; /* Color oscuro para el texto */
+  color: #000000;
   margin-top: 1rem;
 }
 
 .register-link a {
-  color: #5490f0; /* Color azul para el enlace */
+  color: #5490f0;
   text-decoration: none;
   font-weight: 500;
 }
 
 .register-link a:hover {
   text-decoration: underline;
+}
+
+.h2-color{
+    color: #001f3f;
+    margin-bottom: 30px;
+
 }

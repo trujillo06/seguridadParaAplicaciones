@@ -22,11 +22,6 @@ function Formulario() {
   return (
     <div className="login-container">
       <div className="login-box">
-        <img 
-          src="./src/assets/LogoTortilleria2.png" 
-          className="login-logo"
-          alt="Logo Tortillería"
-        />
         <h2 className="h2-color">Iniciar Sesión</h2>
         <form onSubmit={handleSubmit}>
           <div className="input-group">
@@ -49,9 +44,9 @@ function Formulario() {
               required 
             />
           </div>
-          <div className="options">
+          {/* <div className="options">
             <a href="/forgot-password">¿Olvidaste tu contraseña?</a>
-          </div>
+          </div> */}
           <button type="submit" className="login-button">Iniciar sesión</button>
         </form>
         <div className="register-link">
