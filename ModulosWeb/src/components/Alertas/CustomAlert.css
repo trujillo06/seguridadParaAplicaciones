@@ -108,6 +108,24 @@
   background-color: #dc3545;
 }
 
+.custom-modal.confirm {
+  border-top: 5px solid #FFA000;
+}
+
+.custom-modal.confirm button {
+  background-color: #FFA000;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.custom-modal.confirm button.cancel {
+  background-color: #EB394A; 
+}
+
 /* Estilos para móviles */
 @media (max-width: 480px) {
   .custom-modal {

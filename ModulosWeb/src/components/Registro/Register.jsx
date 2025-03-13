@@ -11,10 +11,10 @@ function Register() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [passwordError, setPasswordError] = useState("");
-  const [showModal, setShowModal] = useState(false); // Estado para controlar el modal
-  const [modalType, setModalType] = useState("success"); // Tipo de modal
-  const [modalTitle, setModalTitle] = useState(""); // Título del modal
-  const [modalMessage, setModalMessage] = useState(""); // Mensaje del modal
+  const [showModal, setShowModal] = useState(false); 
+  const [modalType, setModalType] = useState("success");
+  const [modalTitle, setModalTitle] = useState("");
+  const [modalMessage, setModalMessage] = useState("");
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {

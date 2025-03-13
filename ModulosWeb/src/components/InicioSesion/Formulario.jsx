@@ -44,6 +44,7 @@ function Formulario() {
 
 
   return (
+    <div className="background">
     <div className="login-container">
       <div className="login-box">
         <h2 className="h2-color">Iniciar Sesión</h2>
@@ -84,8 +85,8 @@ function Formulario() {
               />
             )}
     </div>
-    
-  );
+  </div> 
+);
 }
 
 export default Formulario;
